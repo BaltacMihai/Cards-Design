@@ -3,14 +3,18 @@ html{
 }
 
 
-.container{
-    display: flex;
-    
-}
 
+@media only screen and (min-width: 1200px)
+{
+    .container{
+        display: flex;
+        
+    }
+
+}
 .card{
     background-color: rgba(201, 244, 245, 0.459);
-    display: flex;
+    display: block;
     position: relative;
     margin: 5% 3% 5% 7%;
 }
@@ -22,10 +26,35 @@ html{
 .box1img{
     position:absolute;
     bottom: 25%;
+    left: -7%;
+    height: 55%;
+    width: 39%;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .box1img{
+        bottom: 30%;
+        left: 2%;
+        height: 62%;
+        width: 31%;
+    }
+    .card{
+        margin-top: 10%;
+    }
+    
+}
+@media only screen and (min-width: 1200px)
+{
+    .box1img{
+        bottom: 25%;
     left: -25%;
     height: 179px;
-    width: 163x;
+    width: 163px;
+    }
+
 }
+
 
 .column{
  
@@ -36,6 +65,7 @@ padding: 2%;
 
     
 }
+
 .desc{
     margin-left: 35%;
     text-decoration: none;
