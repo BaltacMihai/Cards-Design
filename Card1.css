@@ -19,11 +19,10 @@ html{
     opacity: 0.8;
 }
 
-.card img{
+.box1img{
     position:absolute;
     bottom: 25%;
     left: -25%;
-    background-color: lightgreen;
     height: 179px;
     width: 163x;
 }
