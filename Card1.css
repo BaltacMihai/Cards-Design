@@ -73,8 +73,9 @@ padding: 2%;
 }
 
 .center{
-    margin: 0 5% 0 35%;
+    margin: 0 15% 0 35%;
 }
+
 .date{
     margin:0 90% 0 0;
     color:rgba(0, 0, 0, 0.623);
@@ -90,17 +91,12 @@ a{
     border-radius: 10px;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
+
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f127;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
   }
   
   .dropdown-content a {
